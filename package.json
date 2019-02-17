@@ -1,0 +1,37 @@
+{ "name": "envcfg-merge-configs-pmb",
+  "version": "0.0.1",
+  "description": "merge-options + envcfg-import-deep-pmb",
+  "keywords": [
+    "config",
+    "env",
+    "merge",
+    "options"
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/envcfg-merge-configs-pmb-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/envcfg-merge-configs-pmb-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/envcfg-merge-configs-pmb-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "main": "emc.js",
+  "scripts": { "test": "nodejs test/all.js" },
+  "directories": { "test": "test" },
+
+  "dependencies": {
+    "envcfg-import-deep-pmb": "^1.0.5",
+    "merge-options": "?unknown?"
+  },
+  "devDependencies": {
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
