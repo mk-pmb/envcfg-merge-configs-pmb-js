@@ -17,11 +17,13 @@ This module exports one function:
 
 ### envcfgMergeConfigs(opt, config1[, …configs])
 
-For each config, it first merges that config using `merge-options`,
+Merges all your `config`s using `merge-options`,
 then imports env vars by applying `envcfg-import-deep-pmb` with
 options from `opt` and forced `{ inplace: true }`.
 Returns the resulting config.
 
+* ___Pro Tip:___ Use the `ifPrefixProp` option from `envcfg-import-deep-pmb`
+  to easily have your CLI config decide which environment config to accept.
 
 
 

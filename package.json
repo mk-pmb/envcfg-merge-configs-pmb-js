@@ -1,5 +1,5 @@
 { "name": "envcfg-merge-configs-pmb",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "merge-options + envcfg-import-deep-pmb",
   "keywords": [
     "config",
@@ -26,8 +26,8 @@
   "directories": { "test": "test" },
 
   "dependencies": {
-    "envcfg-import-deep-pmb": "^1.0.5",
-    "merge-options": "?unknown?"
+    "envcfg-import-deep-pmb": "^1.0.6",
+    "merge-options": "^3.0.4"
   },
   "devDependencies": {
   },
