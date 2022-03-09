@@ -8,7 +8,6 @@ EX = function envcfgMergeConfigs(opt, configs) {
   configs = Array.prototype.slice.call(arguments, 1);
   configs = Array.prototype.concat.apply([], configs);
   var dest = mo.apply(null, configs);
-  console.debug(dest);
   opt = Object.assign({}, opt);
   opt.inplace = true;
   eid(dest, opt);
