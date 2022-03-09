@@ -30,6 +30,11 @@ Returns the resulting config.
 <!--#toc stop="scan" -->
 
 
+See also
+--------
+
+* [`cfg-cli-env-180111-pmb`](https://github.com/mk-pmb/cfg-cli-env-180111-pmb-js)
+
 
 Known issues
 ------------
